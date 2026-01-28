@@ -105,6 +105,22 @@ export default function Home() {
               </p>
             </a>
 
+            <a 
+              href="/error-code-explorer" 
+              className="group relative bg-slate-900/40 hover:bg-slate-900/80 border border-slate-800 hover:border-rose-500/50 p-8 rounded-2xl transition-all duration-300 hover:shadow-[0_0_30px_-5px_rgba(244,63,94,0.15)]"
+            >
+              <div className="mb-6 inline-flex p-3 rounded-xl bg-rose-500/10 text-rose-400 group-hover:bg-rose-500 group-hover:text-white transition-all duration-300 group-hover:scale-110">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                  <circle cx="11" cy="11" r="6.5" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.5-4.5" />
+                </svg>
+              </div>
+              <h2 className="text-2xl font-bold text-white mb-2 group-hover:text-rose-400 transition-colors">Error Code Explorer</h2>
+              <p className="text-slate-400 group-hover:text-slate-300 transition-colors leading-relaxed">
+                Instantly search and decode system error codes to identify root causes.
+              </p>
+            </a>
+
           </div>
         </div>
       </div>
